@@ -1,0 +1,44 @@
+.cuerpoGame {
+  background: rgb(165, 0, 43);
+  background: linear-gradient(
+    45deg,
+    #000 0%,
+    rgba(52, 12, 83, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(52, 12, 83, 1);
+  .title {
+    font-size: 50px;
+    color: #FE0154;
+    margin-bottom: 30px;
+  }
+  .ganador {
+    color: #FE0154;
+    width: 100%;
+    margin-bottom: 20px;
+    span {
+      color: #fff;
+      margin-left: 20px;
+    }
+  }
+  .btnReiniciar {
+    width: 70%;
+    background-color: #A5002B;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #FE0154;
+    border-radius: 10px;
+    transition: 0.5s ease all;
+  }
+  .btnReiniciar:hover {
+    color: #FE0154;
+    border-color: #A5002B;
+    background-color: #fff;
+  }
+}
